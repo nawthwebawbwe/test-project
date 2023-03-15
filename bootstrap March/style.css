@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(225, 225, 231) !important;
+}
+.navbar{
+    background-color: cadetblue;
+}
+.nav-link,
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    color: #000;
+}
+.header{
+    background-image: url(images/bg.html);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: #000
+}
+.description{
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1{
+    color: coral;
+}
+.description p{
+    color: #601b1b;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description button{
+    border: 1px solid #b56b6b;
+    background: #e77d7d;
+    border-radius: 0;
+    color: #16d43c;
+}
+.description button:hover{
+    border: 1 px solid #f018c9;
+    background: #fff;
+    color: #000;
+}
